@@ -1,0 +1,111 @@
+#home {
+  position: relative;
+  background: url("../img/home.png") no-repeat center/cover;
+  min-height: 90vh;
+  .home {
+    &--jordan {
+      position: absolute;
+      bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__kross {
+        h3 {
+          margin-left: 80px;
+          color: white;
+          margin: 0 30px 10px;
+        }
+        margin-right: 70px;
+        &--nike {
+          display: flex;
+          gap: -20px;
+
+          img {
+            width: 280px;
+            margin-left: -50px;
+          }
+        }
+      }
+      &__btns {
+        // margin-top: 50px;
+        &--right {
+          width: Hug (179.25px) px;
+          height: Fixed (51.75px) px;
+          padding: 15px 22.5px 15px 22.5px;
+          gap: 3px;
+          background: white;
+          color: black;
+          border: 0.75px solid #ffffff;
+          cursor: pointer;
+        }
+        &--left {
+          width: Hug (162px) px;
+          height: Fixed (51.75px) px;
+          padding: 15px 30px 15px 30px;
+          margin-left: 10px;
+          background: none;
+          color: white;
+          border: 0.75px solid #ffffff;
+          border: 0.75px 0px 0px 0px;
+          cursor: pointer;
+        }
+      }
+      &__text {
+        margin-left: 150px;
+        h2 {
+          font-size: 20px;
+          font-weight: 800;
+          line-height: 16.8px;
+          letter-spacing: 0.2em;
+          text-align: left;
+          color: white;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 20.25px;
+          text-align: left;
+          color: white;
+        }
+      }
+    }
+    &--price {
+      position: relative;
+      position: absolute;
+      bottom: 250px;
+      right: 530px;
+      display: flex;
+      align-items: center;
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.2px;
+        text-align: left;
+        color: #e70000;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20.25px;
+        letter-spacing: 0.075em;
+        text-align: left;
+        color: white;
+        margin-left: 20px;
+      }
+      button {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        width: Hug (74.25px) px;
+        height: Hug (29.25px) px;
+        padding: 7.5px 15px 7.5px 15px;
+        gap: 7.5px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background: #eb0000;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "../src/assets/styles/Header.scss";
+@import "../src/assets/styles/Home.scss";
+@import "../src/assets/styles/AddCard.scss";
+@import "../src/assets/styles/BuyCard.scss";
+@import "../src/assets/styles/Buy.scss";
+@import "../src/assets/styles/Basket.scss";
+@import "../src/assets/styles/Favorite.scss";
+@import "../src/assets/styles/ProductDetails.scss";
+@import "../src/assets/styles/FavoriteBuy.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: #000;
+}
